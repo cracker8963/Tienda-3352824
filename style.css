@@ -89,9 +89,26 @@ header{
 #menu a:hover{
     background: #01b1ea;
 }
+
 #content{
     margin: 0px auto;
     overflow: hidden;
-    background: white;
-    border: 4px solid red;
+    background: rgb(255, 255, 255);
+    border: 4px solid rgb(17, 6, 6);
+}
+#lateral{
+    width: 20%;
+    min-height: 600px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 4px solid blue;
+}
+
+#lateral .block_aside{
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    border: 2px solid green;
 }
